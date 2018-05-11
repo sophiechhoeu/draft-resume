@@ -104,7 +104,15 @@ h2 {
 
 .bio {
   width: 25%;
+
 }
+
+.bio a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 .bio-blurb{
   padding-top: 10px;
