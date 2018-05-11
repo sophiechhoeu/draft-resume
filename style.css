@@ -42,9 +42,10 @@
  }
 
  .bio img {
-   width: 30px;
+   max-width: 100px;
    height: auto;
  }
+
 
 }
 
@@ -125,8 +126,6 @@ h2 {
   text-decoration: none;
   color: black;
 }
-
-
 
 .bio-blurb{
   padding-top: 10px;
