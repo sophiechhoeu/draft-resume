@@ -41,6 +41,10 @@
    padding: 0px 30px 0px 10px;
  }
 
+ .bio img {
+   width: 30px;
+   height: auto;
+ }
 
 }
 
