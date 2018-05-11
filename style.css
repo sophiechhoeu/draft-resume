@@ -23,7 +23,7 @@
   }
 
   .job-title{
-    position:static;
+    display:block;
   }
 
   #date-1,#date-2,#date-3,#date-4 {
@@ -88,11 +88,23 @@ h2 {
   line-height: 2em;
 }
 
+#connect {
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#socials {
+  display: none;
+  margin: 10px 10px;
+}
+
 
 .bio {
   width: 25%;
 }
-
 
 .bio-blurb{
   padding-top: 10px;

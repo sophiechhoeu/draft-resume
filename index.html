@@ -52,21 +52,22 @@
           </div>
 
           <h2>Socials</h2>
-          <div class="fa-2x">
-          <a href="https://github.com/sophiechhoeu" target="_blank"><span class="fab fa-github"></span></a>
-          <a href="https://www.linkedin.com/in/sophie-chhoeu-58a96670/" target="_blank"><span class="fab fa-linkedin"></span></a>
+          <button id="connect" onclick="social()">Connect with me</button>
+          <div id="socials">
+            <a href="https://github.com/sophiechhoeu" target="_blank"><span class="fab fa-github fa-2x"></span></a>
+            <a href="https://www.linkedin.com/in/sophie-chhoeu-58a96670/" target="_blank"><span class="fab fa-linkedin fa-2x"></span></a>
           </div>
-          <p class="main-text">
-            Connect with me
-          </p>
+
+
+
 
       </div>
         <div class="bio">
           <img src="Sophie.jpg" alt="Profile Picture">
           <p class="bio-blurb">Personal Projects</p>
-          <a href="https://article-search-app.herokuapp.com/"><p>Article Search: Node and React</p></a>
-          <a href="https://baker-girl.netlify.com/"><p>Business Website: Node and React</p></a>
-          <a href="https://sophstagram.herokuapp.com/"><p>Sophstagram: Ruby on Rails</p></a>
+             <a href="https://article-search-app.herokuapp.com/"><p>Article Search: Node and React</p></a>
+             <a href="https://baker-girl.netlify.com/"><p>Business Website: Node and React</p></a>
+             <a href="https://sophstagram.herokuapp.com/"><p>Sophstagram: Ruby on Rails</p></a>
         </div>
 
 
@@ -76,8 +77,21 @@
           <div class="fa-2x">
           <span class="fab fa-html5"></span>
           <span class="fab fa-css3-alt"></span>
+          <span class="fab fa-js-square"></span>
           </div>
         </div>
     </div>
+    <script>
+    //social toggle
+    function social() {
+      var connectButton = document.getElementById("socials");
+      if (connectButton.style.display === "none") {
+          connectButton.style.display = "block";
+      } else {
+          connectButton.style.display = "none";
+      }
+    }
+
+    </script>
   </body>
 </html>
