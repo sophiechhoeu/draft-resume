@@ -2,7 +2,7 @@
 
 ## Basic html, css and js resume
 
-Deployed live site: https://sophie-resume.herokuapp.com/
+Deployed live site: http://sophie-chhoeu.ml/
 
 
 ### Cheatsheet for deployment on heroku

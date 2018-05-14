@@ -7,7 +7,17 @@
     display:block;
   }
 
-  #date-1, #date-2, #date-3, #date-4 {
+  #date-1 {
+    position:absolute;
+    right: 50px;
+  }
+
+  .project{
+    display:block;
+  }
+
+  #project-link {
+    font-weight: bold;
     position:absolute;
     right: 50px;
   }
@@ -26,7 +36,7 @@
     display:block;
   }
 
-  #date-1,#date-2,#date-3,#date-4 {
+  #date-1 {
     display:block;
     font-style: italic;
     padding:2px;
