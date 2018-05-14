@@ -102,6 +102,10 @@ h2 {
   line-height: 2em;
 }
 
+.description {
+  margin-bottom: 20px;
+}
+
 #connect {
   background-color: black;
   color: white;
@@ -133,10 +137,4 @@ h2 {
 .bio img {
   width: 150px;
   height: auto;
-}
-
-.footer {
-  border-top: 1px solid grey;
-  padding-top: 20px;
-  width: 90%;
 }
