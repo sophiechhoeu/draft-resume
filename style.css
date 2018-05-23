@@ -62,32 +62,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .flex-container {
-  width: 90%;
+  width: 95%;
   height:auto;
   margin: 20px auto 0 auto;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
+  padding: 20px 20px;
+
+
 }
 
+.name {
+  display: flex;
+  justify-content: center;
+}
 
 body {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
+  line-height: 30px;
+  background-image: url("background-3.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 
 h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 55px;
+  font-family: 'Cinzel';
+  font-size: 45px;
+  font-weight: lighter;
+
   margin-bottom: 20px;
 }
 
 h2 {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Noticia Text';
   font-size: 30px;
   margin-bottom: 10px;
   margin-top: 10px;
